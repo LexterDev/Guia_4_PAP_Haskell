@@ -3,7 +3,7 @@ main = do
   putStrLn "Ingrese la antigüedad laboral en años:"
   input <- getLine
   let antiguedad = read input :: Int
-  let salario = 1000  -- Salario diario promedio (ejemplo)
+  let salario = 40  -- Salario diario promedio
   let aguinaldo = calcularAguinaldo antiguedad salario
   putStrLn ("El aguinaldo a pagar es: $" ++ show aguinaldo)
 
